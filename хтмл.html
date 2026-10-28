@@ -1,0 +1,398 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Портфолио — Product Designer</title>
+  <meta name="description" content="Портфолио начинающего продуктового дизайнера. UX/UI, Figma, прототипирование и веб-дизайн.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Навигация -->
+  <header class="header">
+    <a href="#home" class="logo">portfolio<span>.</span></a>
+
+    <nav class="nav">
+      <a href="#about">Обо мне</a>
+      <a href="#skills">Навыки</a>
+      <a href="#projects">Проекты</a>
+    </nav>
+
+    <a href="#contacts" class="header-contact">Связаться ↗</a>
+  </header>
+
+
+  <main>
+
+    <!-- 1. Hero -->
+    <section class="hero section" id="home">
+
+      <div class="hero-top">
+        <span class="availability">
+          <span class="status-dot"></span>
+          Открыта к предложениям
+        </span>
+
+        <span class="hero-number">PORTFOLIO / 2026</span>
+      </div>
+
+      <div class="hero-content">
+        <p class="eyebrow">ПРИВЕТ! Я — НАЧИНАЮЩИЙ ДИЗАЙНЕР</p>
+
+        <h1>
+          Создаю цифровые
+          <span class="accent-text">продукты</span>,
+          которыми удобно пользоваться<span class="accent-text">.</span>
+        </h1>
+
+        <div class="hero-bottom">
+          <p class="hero-description">
+            Исследую пользовательские задачи, проектирую интерфейсы
+            и превращаю идеи в понятные визуальные решения.
+          </p>
+
+          <a href="#projects" class="button button-primary">
+            Смотреть проекты <span>↗</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-decoration" aria-hidden="true">
+        <div class="decoration-circle"></div>
+        <span>IDEA → DESIGN → EXPERIENCE</span>
+      </div>
+
+    </section>
+
+
+    <!-- 2. Обо мне -->
+    <section class="about section" id="about">
+
+      <div class="section-heading">
+        <span class="section-index">01 / ОБО МНЕ</span>
+        <h2>Дизайн начинается<br>с <span class="accent-text">любопытства.</span></h2>
+      </div>
+
+      <div class="about-grid">
+
+        <div class="about-photo">
+          <!-- Замени путь на фотографию -->
+          <img src="images/photo.jpg" alt="Моя фотография">
+          <span class="photo-label">DESIGNER IN PROGRESS ✳</span>
+        </div>
+
+        <div class="about-info">
+          <p class="about-lead">
+            Мне интересно не просто создавать красивые интерфейсы,
+            а разбираться, как они работают и какую задачу решают.
+          </p>
+
+          <p class="about-text">
+            У меня есть опыт работы с визуальным контентом,
+            рекламой и коммуникациями. Работаю в Figma, изучаю UX/UI
+            и развиваюсь в продуктовом дизайне. Люблю соединять
+            логику, визуальную выразительность и внимание к деталям.
+          </p>
+
+          <p class="about-text">
+            Сейчас ищу возможность развиваться в команде,
+            создавать полезные цифровые продукты и учиться
+            на реальных задачах.
+          </p>
+
+          <div class="about-links">
+            <a href="resume.pdf" target="_blank" class="text-link">
+              Моё резюме <span>↗</span>
+            </a>
+
+            <a href="https://t.me/your_username" target="_blank"
+               rel="noopener noreferrer" class="text-link">
+              Telegram <span>↗</span>
+            </a>
+
+            <a href="https://vk.com/your_username" target="_blank"
+               rel="noopener noreferrer" class="text-link">
+              ВКонтакте <span>↗</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- 3. Чем могу быть полезна -->
+    <section class="services section" id="services">
+
+      <div class="section-heading">
+        <span class="section-index">02 / ЧЕМ Я МОГУ БЫТЬ ПОЛЕЗНА</span>
+        <h2>От идеи до <span class="accent-text">интерфейса.</span></h2>
+      </div>
+
+      <div class="services-grid">
+
+        <article class="service-card">
+          <span class="service-number">01</span>
+          <div class="service-icon">⌕</div>
+          <h3>Исследовать</h3>
+          <p>
+            Разбираться в потребностях пользователей, анализировать
+            конкурентов и находить возможности для улучшения продукта.
+          </p>
+          <span class="service-tag">UX research</span>
+        </article>
+
+        <article class="service-card service-card-featured">
+          <span class="service-number">02</span>
+          <div class="service-icon">↗</div>
+          <h3>Проектировать</h3>
+          <p>
+            Продумывать пользовательские сценарии, создавать
+            структуру, прототипы и понятную навигацию.
+          </p>
+          <span class="service-tag">UX / UI</span>
+        </article>
+
+        <article class="service-card">
+          <span class="service-number">03</span>
+          <div class="service-icon">✳</div>
+          <h3>Визуализировать</h3>
+          <p>
+            Создавать визуальную концепцию, работать с типографикой,
+            цветом, компонентами и адаптивными макетами.
+          </p>
+          <span class="service-tag">Visual design</span>
+        </article>
+
+      </div>
+    </section>
+
+
+    <!-- 4. Навыки -->
+    <section class="skills section" id="skills">
+
+      <div class="skills-intro">
+        <span class="section-index">03 / ИНСТРУМЕНТЫ И НАВЫКИ</span>
+        <h2>Что в моём <span class="accent-text">арсенале?</span></h2>
+        <p>
+          Инструменты, с которыми я работаю и продолжаю развиваться.
+        </p>
+      </div>
+
+      <div class="skills-list">
+        <span class="skill-pill skill-pill-active">Figma ✳</span>
+        <span class="skill-pill">UX-исследования</span>
+        <span class="skill-pill">Прототипирование</span>
+        <span class="skill-pill">UI-дизайн</span>
+        <span class="skill-pill">Адаптивный дизайн</span>
+        <span class="skill-pill">User flows</span>
+        <span class="skill-pill">Информационная архитектура</span>
+        <span class="skill-pill">Брендинг</span>
+        <span class="skill-pill">HTML / CSS — изучаю</span>
+      </div>
+
+    </section>
+
+
+    <!-- 5. Кейсы -->
+    <section class="projects section" id="projects">
+
+      <div class="section-heading projects-heading">
+        <div>
+          <span class="section-index">04 / ИЗБРАННЫЕ ПРОЕКТЫ</span>
+          <h2>Работы, за которыми<br>стоит <span class="accent-text">идея.</span></h2>
+        </div>
+
+        <span class="projects-count">02 PROJECTS</span>
+      </div>
+
+
+      <!-- Кейс 1 -->
+      <article class="project-card">
+
+        <div class="project-cover cover-social">
+          <span class="cover-label">01 — PRODUCT DESIGN</span>
+
+          <div class="social-mockup">
+            <div class="mockup-sidebar">
+              <span class="mockup-logo">s.</span>
+              <span class="mockup-menu">⌂</span>
+              <span class="mockup-menu">♡</span>
+              <span class="mockup-menu">✉</span>
+            </div>
+
+            <div class="mockup-content">
+              <div class="mockup-top">
+                <span>Твоя лента</span>
+                <span class="mockup-avatar">Е</span>
+              </div>
+
+              <div class="mockup-stories">
+                <span>А</span><span>М</span><span>С</span><span>Д</span>
+              </div>
+
+              <div class="mockup-post">
+                <div class="post-image">
+                  <span>share<br>your world.</span>
+                </div>
+                <div class="post-lines">
+                  <span></span><span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <span class="cover-corner">↗</span>
+        </div>
+
+        <div class="project-info">
+          <div class="project-meta">
+            <span>PRODUCT DESIGN</span>
+            <span>2026</span>
+          </div>
+
+          <h3>Социальная платформа</h3>
+
+          <p class="project-description">
+            Концепция социальной платформы с акцентом на
+            пользовательские сценарии, общение и обмен контентом.
+          </p>
+
+          <div class="project-details">
+            <div>
+              <span class="detail-label">ЗАДАЧА</span>
+              <p>Продумать структуру и ключевые сценарии продукта.</p>
+            </div>
+
+            <div>
+              <span class="detail-label">МОЯ РОЛЬ</span>
+              <p>UX/UI, прототипирование, визуальная концепция.</p>
+            </div>
+
+            <div>
+              <span class="detail-label">РЕЗУЛЬТАТ</span>
+              <p>Интерактивный прототип основных пользовательских сценариев.</p>
+            </div>
+          </div>
+
+          <a href="https://www.figma.com/" target="_blank"
+             rel="noopener noreferrer" class="project-link">
+            Смотреть кейс <span>↗</span>
+          </a>
+        </div>
+
+      </article>
+
+
+      <!-- Кейс 2 -->
+      <article class="project-card project-card-reverse">
+
+        <div class="project-cover cover-career">
+          <span class="cover-label">02 — WEB DESIGN</span>
+
+          <div class="career-mockup">
+            <span class="career-kicker">НАЙДИ СВОЁ</span>
+
+            <h3>А кем<br>быть <span>тебе?</span></h3>
+
+            <p>Узнай, какая профессия подходит именно тебе.</p>
+
+            <div class="career-button">Начать тест <span>↗</span></div>
+
+            <div class="career-orb orb-one"></div>
+            <div class="career-orb orb-two"></div>
+          </div>
+
+          <span class="cover-corner">↗</span>
+        </div>
+
+        <div class="project-info">
+          <div class="project-meta">
+            <span>WEB DESIGN / UX</span>
+            <span>2026</span>
+          </div>
+
+          <h3>Тест по выбору профессии</h3>
+
+          <p class="project-description">
+            Сайт с интерактивным тестом, который помогает пользователю
+            исследовать свои интересы и подобрать направление карьеры.
+          </p>
+
+          <div class="project-details">
+            <div>
+              <span class="detail-label">ЗАДАЧА</span>
+              <p>Сделать процесс выбора профессии понятным и увлекательным.</p>
+            </div>
+
+            <div>
+              <span class="detail-label">МОЯ РОЛЬ</span>
+              <p>Структура сайта, пользовательский путь, дизайн интерфейса.</p>
+            </div>
+
+            <div>
+              <span class="detail-label">РЕЗУЛЬТАТ</span>
+              <p>Концепция сайта с последовательным прохождением теста.</p>
+            </div>
+          </div>
+
+          <a href="https://www.figma.com/" target="_blank"
+             rel="noopener noreferrer" class="project-link">
+            Смотреть кейс <span>↗</span>
+          </a>
+        </div>
+
+      </article>
+
+    </section>
+
+
+    <!-- 6. Финальный призыв -->
+    <section class="contact section" id="contacts">
+
+      <span class="section-index">05 / ДАВАЙТЕ ЗНАКОМИТЬСЯ</span>
+
+      <h2>
+        Есть интересная<br>
+        задача? <span class="contact-accent">Я на связи.</span>
+      </h2>
+
+      <p>
+        Открыта к стажировкам, junior-позициям
+        и новым проектам в продуктовом дизайне.
+      </p>
+
+      <a href="https://t.me/your_username"
+         target="_blank"
+         rel="noopener noreferrer"
+         class="button button-light">
+        Написать мне <span>↗</span>
+      </a>
+
+      <div class="contact-decoration" aria-hidden="true">✳</div>
+
+    </section>
+
+  </main>
+
+
+  <!-- Подвал -->
+  <footer class="footer">
+    <a href="#home" class="logo">portfolio<span>.</span></a>
+
+    <span class="footer-copy">© 2026 · Product design portfolio</span>
+
+    <a href="#home" class="back-top">Наверх ↑</a>
+  </footer>
+
+</body>
+</html>
